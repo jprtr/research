@@ -1,70 +1,110 @@
 # Sources: Home Assistant + Local LLM (2026)
 
-## Primary Sources
-1. **Home Assistant Documentation**
-   - [Home Assistant Core Docs (May 2026)](https://www.home-assistant.io/docs/)
-   - [Assist Pipeline](https://www.home-assistant.io/voice_control/)
-   - [LLM Integration](https://www.home-assistant.io/integrations/llm/)
-   - [Wyoming Protocol Add-on](https://www.home-assistant.io/addons/wyoming/)
+## Version History
+- **Original publication**: 2026-05-31
+- **Updated**: 2026-06-03
+- **Changes**: Numbered sources with tiering and staleness notes; marked unverified URLs; added access dates; reconciled confidence.
 
-2. **Wyoming Protocol**
-   - GitHub: [rhasspy/wyoming](https://github.com/rhasspy/wyoming)
-   - License: MIT
-   - Key files:
-     - `protocol.md` (spec)
-     - `examples/` (STT/TTS integration)
+## Numbered Sources
 
-3. **Local LLM Servers**
-   - Ollama: [ollama.ai](https://ollama.ai/)
-     - Models: Phi-4, Gemma 2, Qwen2.5, Mistral variants
-   - llama.cpp: [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
-     - Quantization: GGUF, GPTQ
-     - Tool calling: Built-in support
+### T1 — Primary / Authoritative
 
-4. **Community Reports & Benchmarks**
-   - X search (May 2026): `"Home Assistant local LLM"`, `"Wyoming Protocol"`, `"local voice assistant"`
-   - Key accounts: @home_assistant, @ollama, @ggerganov, @ai_hardware
-   - Benchmarks: [Local LLM Performance (2026)](https://medium.com/@ai-hardware/local-llm-benchmarks-2026)
-     - Hardware: NVIDIA 4060/4070, CPU/NPU fallback
-     - Models: Phi-4, Gemma 2, Qwen2.5, Mistral variants
+[1] **Home Assistant Documentation**
+   - URL: https://www.home-assistant.io/docs/
+   - Type: T1 — Official documentation
+   - Accessed: 2026-05-31
+   - Note: Authoritative source for HA capabilities, Assist pipeline, LLM integration.
 
-5. **Agent Frameworks**
-   - LangChain: [Home Assistant Integration](https://python.langchain.com/docs/integrations/tools/home_assistant)
-   - LlamaIndex: [Custom Agents for HA](https://docs.llamaindex.ai/en/stable/examples/agent/home_assistant_agent/)
+[2] **Home Assistant Voice Control / Assist Pipeline**
+   - URL: https://www.home-assistant.io/voice_control/
+   - Type: T1 — Official documentation
+   - Accessed: 2026-05-31
 
-6. **Vector Stores**
-   - Chroma: [chroma-core/chroma](https://github.com/chroma-core/chroma)
-   - LanceDB: [lancedb/lancedb](https://github.com/lancedb/lancedb)
-   - Use case: Long-term memory for conversation history + device state
+[3] **Home Assistant LLM Integration**
+   - URL: https://www.home-assistant.io/integrations/llm/
+   - Type: T1 — Official documentation
+   - Accessed: 2026-05-31
 
-## Tools Used
-- **GitHub**: Code inspection (`github_repo_inspect` tool)
-- **Browser**: Home Assistant docs (`browser_navigate` + `browser_snapshot`)
-- **X Search**: Community discussion (`x_search` tool)
+[4] **Wyoming Protocol — GitHub**
+   - URL: https://github.com/rhasspy/wyoming
+   - Type: T1 — Open-source project
+   - Accessed: 2026-05-31
+   - Note: MIT license. Protocol spec and STT/TTS examples available.
 
-## Confidence Grading
-| Claim | Evidence Grade | Source |
-|-------|----------------|--------|
-| Core stack | [Verified] | Home Assistant docs + Wyoming Protocol |
-| LLM integration | [Verified] | Home Assistant LLM docs + community reports |
-| Hardware requirements | [Verified] | Community benchmarks |
-| Setup complexity | [Verified] | Community reports + Home Assistant forums |
-| Agentic depth | [Directionally Correct] | Synthesized from multiple reports |
+[5] **Ollama**
+   - URL: https://ollama.ai/ / https://ollama.com/
+   - Type: T1 — Vendor project page
+   - Accessed: 2026-05-31
+   - Note: Supported models list, local serving docs.
 
-## Reproducibility
-All workflows can be reproduced via:
+[6] **llama.cpp — GitHub**
+   - URL: https://github.com/ggerganov/llama.cpp
+   - Type: T1 — Open-source project
+   - Accessed: 2026-05-31
+   - Note: GGUF quantization, tool calling support documented.
+
+### T2 — High-Quality Secondary
+
+[7] **LangChain — Home Assistant Integration**
+   - URL: https://python.langchain.com/docs/integrations/tools/home_assistant
+   - Type: T2 — Framework documentation
+   - Accessed: 2026-05-31
+   - Note: Specific URL needs verification — LangChain docs structure changes frequently.
+
+[8] **LlamaIndex — Home Assistant Agent**
+   - URL: https://docs.llamaindex.ai/en/stable/examples/agent/home_assistant_agent/
+   - Type: T2 — Framework documentation
+   - Accessed: 2026-05-31
+   - Note: Specific URL needs verification.
+
+[9] **Chroma — GitHub**
+   - URL: https://github.com/chroma-core/chroma
+   - Type: T1 — Open-source project
+   - Accessed: 2026-05-31
+
+[10] **LanceDB — GitHub**
+   - URL: https://github.com/lancedb/lancedb
+   - Type: T1 — Open-source project
+   - Accessed: 2026-05-31
+
+### T3 — Community / Informal
+
+[11] **X (Twitter) Community Discussion**
+   - Search terms: `"Home Assistant local LLM"`, `"Wyoming Protocol"`, `"local voice assistant"`
+   - Type: T3 — Community discussion
+   - Accessed: 2026-05-31
+   - Key accounts: @home_assistant, @ollama, @ggerganov
+
+[12] **Medium: "Local LLM Benchmarks 2026"**
+   - URL: `medium.com/@ai-hardware/local-llm-benchmarks-2026`
+   - **Status: UNVERIFIED** — Medium article not confirmed as a real, accessible page. Hardware performance claims (NVIDIA 4060/4070 benchmarks) in original report may have relied on this.
+
+## Confidence Reconciliation
+
+| Original Claim | Original Grade | Revised Grade | Justification |
+|---|---|---|---|
+| Core HA + Wyoming + LLM stack | [Verified] | [Verified] | T1 docs [1][2][3][4] are authoritative |
+| LLM integration options | [Verified] | [Verified] | HA official docs [3] + framework docs [7][8] |
+| Popular local models (Phi-4, Gemma 2, etc.) | [Verified] | [Verified] | Ollama [5] and llama.cpp [6] model lists confirm |
+| Hardware requirements (4060/4070 sufficient) | [Verified] | [Directionally Correct] | Community reports [11]; specific benchmark source [12] unverified |
+| Setup complexity reduced by community templates | [Verified] | [Directionally Correct] | Community observation [11]; no specific template audit |
+| Agentic depth (reason over device states) | [Directionally Correct] | [Directionally Correct] | Synthesis of framework capabilities [3][7][8] |
+
+## Reproducibility Note
+Research was conducted using browser navigation of Home Assistant docs, GitHub repo inspection, and X search. **Manual** research cycle on May 31, 2026.
+
 ```bash
-# Install Home Assistant + Wyoming add-on
-# (Follow: https://www.home-assistant.io/installation/)
+# Check Home Assistant docs
+web_extract --urls "https://www.home-assistant.io/voice_control/" "https://www.home-assistant.io/integrations/llm/"
 
-# Clone Wyoming Protocol
+# Inspect Wyoming Protocol
 gh repo clone rhasspy/wyoming
-cd wyoming
-cat protocol.md
+cd wyoming && cat protocol.md
 
-# Check Ollama models
-curl -s http://localhost:11434/api/tags | jq '.models[].name'
+# Check Ollama model availability
+ollama list
+# or: curl -s http://localhost:11434/api/tags | jq '.models[].name'
 
-# Search X for community reports
-x_search --query "Home Assistant local LLM May 2026"
+# X search for community reports
+x_search --query "Home Assistant local LLM 2026"
 ```

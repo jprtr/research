@@ -1,6 +1,11 @@
 
 # Local AI Hardware & Compute Landscape
 
+## Version History
+- **Original publication**: 2026-06-01
+- **Updated**: 2026-06-03
+- **Changes**: Added version history; aligned with Vanguard Research Directive (inline citations, evidence matrix format). Report structure already met most directive requirements (inline confidence per claim, caveat grid, tiered sources).
+
 ---
 
 ## Executive Summary
@@ -195,6 +200,15 @@ The local AI hardware market in 2026 is a **layered oligopoly**: NVIDIA dominate
 ---
 
 ## Confidence & Caveat Grid
+
+## Cross-Report Notes
+- **NVIDIA RTX 5070/5090 / RTX Spark**: Also relevant in `nemoclaw-rtx-spark/` which details the NemoClaw enterprise stack on RTX Spark.
+- **Apple M-series**: Also mentioned in `home-assistant-local-llm/` as a viable local LLM platform.
+- **Qualcomm Snapdragon**: AR1+ chip also covered in `ray-ban-ai-glasses/` and `meta-ray-ban-ai-glasses/` as the wearable compute platform.
+- **AMD ROCm**: Referenced in `home-assistant-local-llm/` as an alternative to CUDA for local inference.
+- **Tenstorrent**: No cross-references — unique to this report.
+
+---
 
 | Claim | Confidence | Caveat |
 |-------|------------|--------|

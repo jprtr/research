@@ -1,5 +1,14 @@
 # Research: NemoClaw + RTX Spark Stack
 
+## Version History
+- **Original publication**: 2026-06-02
+- **Updated**: 2026-06-03
+- **Changes**: Added version history; aligned with Vanguard Research Directive. Report already has inline confidence and a clear "What's Still Open" section. All source claims are NVIDIA-sourced (noted as limitation).
+
+## Cross-Report Notes
+- **`local-ai-hardware-landscape/`**: Detailed NVIDIA hardware analysis including RTX Spark specs. This report complements it with the enterprise software stack angle.
+- **No contradictions found** with other reports in repository.
+
 ## Key Findings
 
 | Finding | Source | Confidence |

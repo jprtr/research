@@ -1,6 +1,16 @@
 
 # Meta Ray-Ban AI Glasses: Hardware Teardown + On-Device AI Reality Check
 
+## Version History
+- **Original publication**: 2026-05-31
+- **Updated**: 2026-06-03
+- **Changes**: Added version history; aligned with Vanguard Research Directive. Report already well-grounded with verified T1 sources and inline confidence per claim. **This is the authoritative report on Ray-Ban Meta glasses** — it supersedes `ray-ban-ai-glasses/report.md` which contains contradicted on-device AI claims.
+
+## Cross-Report Notes
+- **`ray-ban-ai-glasses/report.md`**: Covers the same device but with **contradicted claims** (on-device LLM, 6–8 hour battery). This report (`meta-ray-ban-ai-glasses/`) is more grounded with verified T1 sources. Readers should prefer this report.
+- **`local-ai-hardware-landscape/`**: Snapdragon AR1 is also profiled there as a mobile NPU. Different angle (wearable vs general compute).
+- **`home-assistant-local-llm/`**: Philosophical contrast — local-first smart home vs cloud-reliant wearable AI.
+
 ## Primary Sources
 
 | Tier | Source | URL | Date |
