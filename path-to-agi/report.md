@@ -126,3 +126,32 @@ Numbered references [1]–[13] defined in `sources.md` with full metadata, tieri
 
 ---
 *Confidence in this report is Medium (60%). Use for directional planning. Timeline predictions are expert opinion, not quantitative models. Two original arXiv citations were found unsupported — affected claims are weaker than originally presented.*
+
+---
+
+## T1 Sources Added (2026-06-03)
+
+The following verified T1 sources have been added to sources.md per the Vanguard Research Directive:
+
+### Benchmark Organization
+- ARC Prize homepage: https://arcprize.org
+- What is ARC-AGI?: https://arcprize.org/arc-agi
+- ARC-AGI-3 competition: https://arcprize.org/competitions/2026/arc-agi-3
+- ARC-AGI-3: https://arcprize.org/arc-agi/3
+- SWE-bench: https://www.swebench.com
+- SWE-bench Verified: https://www.swebench.com/verified.html
+- GPQA original paper: https://openreview.net/forum?id=Ti67584b98
+
+### Model Announcements
+- OpenAI o3/o4-mini: https://openai.com/index/introducing-o3-and-o4-mini/
+- Anthropic Claude 4: https://www.anthropic.com/news/claude-4
+- Kimi K2.6 tech blog: https://www.kimi.com/blog/kimi-k2-6
+- Moonshot AI: https://www.moonshot.ai
+
+### Lab Leader Essays
+- Dario Amodei essay: https://darioamodei.com/essay/machines-of-loving-grace
+
+### Forecasting Platforms
+- Metaculus AGI forecast: https://www.metaculus.com/questions/3479/when-will-the-first-artificial-general-intelligence-system-be-devised-tested-and-publicly-known-of/
+
+**Changes**: All fabricated arXiv IDs (`2605.12345`, `2605.67890`), placeholder X/Twitter URLs, and unverified Medium articles have been removed. Benchmark claims now cite benchmark owners directly. AGI timeline analysis grounded in lab leader essays and forecasting platforms rather than social media recap articles.

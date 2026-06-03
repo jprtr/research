@@ -108,3 +108,19 @@ Numbered references [1]–[9] defined in `sources.md` with full metadata, tierin
 
 ---
 *Confidence in this report is Medium (65%). Hardware requirements are unverified. Framework existence is well-supported; capability claims rely partly on vendor marketing.*
+
+---
+
+## T1 Sources Added (2026-06-03)
+
+Verified T1 sources added to sources.md:
+
+- https://docs.unity3d.com/Packages/com.unity.ml-agents@3.0/manual/index.html (Unity ML-Agents primary docs)
+- https://huggingface.co/learn/deep-rl-course/unit5/introduction (HuggingFace Deep RL course)
+- https://github.com/donchitos/claude-code-game-studios (Claude Code Game Studios — verified GitHub repo)
+
+**Critical corrections applied**:
+- Fabricated X/Twitter URLs (`status/1234567890`, `status/9876543210`) removed
+- Unverified Medium URLs (`@ai-gamedev/kimi-swarms-2026`, `@ai-hardware/kimi-swarm-vram-2026`) removed
+- Hardware VRAM requirements claim downgraded (unverified source only)
+- Grok Imagine specific blog URL needs re-verification

@@ -128,3 +128,16 @@ Numbered references [1]–[12] defined in `sources.md` with full metadata, tieri
 
 ---
 *Confidence in this report is Medium (68%). Key AI architecture claim (cloud-processed, not on-device) is verified via T1 Meta Engineering blog [2]. Hardware specs rest on T2/T3 sources. Multiple URLs from original research are unverified.*
+
+---
+
+## T1 Sources Verified (2026-06-03)
+
+Verified T1 sources in sources.md:
+
+- https://www.ifixit.com/News/113543/theres-groundbreaking-waveguide-tech-inside-metas-800-ar-glasses-but-dont-count-on-fixing-them (Real teardown)
+- https://engineering.fb.com/2025/03/04/virtual-reality/building-multimodal-ai-for-ray-ban-meta-glasses/ (Official Meta Engineering)
+- https://www.androidauthority.com/meta-smart-glasses-fcc-filing-3672710/ (Real FCC filings: G4QM variants)
+- https://www.roadtovr.com/meta-ray-ban-smart-glasses-2026-next-gen/ (Next-gen FCC reporting)
+
+**Fabricated FCC ID `2AHRD-RAYBAN2026` removed. Real model numbers: G4QM, G4QR, G4QB, G4QS.**

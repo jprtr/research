@@ -111,3 +111,27 @@ Numbered references [1]–[10] defined in `sources.md` with full metadata.
 
 ---
 *Confidence in this report is Medium (65%). Use for directional decision-making but verify financial claims and specific benchmark scores before high-stakes decisions.*
+
+---
+
+## T1 Sources Added (2026-06-03)
+
+The following verified T1 sources have been added to sources.md per the Vanguard Research Directive:
+
+### Frontier LLM Vendors
+- Moonshot AI: https://www.moonshot.ai
+- Kimi K2.6: https://www.kimi.com/blog/kimi-k2-6
+- Kimi K2.6 HuggingFace: https://huggingface.co/moonshotai/Kimi-K2.6
+- NVIDIA NIM Kimi K2.6: https://docs.api.nvidia.com/nim/reference/moonshotai-kimi-k2-6
+- Anthropic Claude 4: https://www.anthropic.com/news/claude-4
+- Claude platform release notes: https://platform.claude.com/docs/en/release-notes/overview
+- OpenAI o3/o4-mini: https://openai.com/index/introducing-o3-and-o4-mini/
+- OpenAI model release notes: https://help.openai.com/en/articles/9624314-model-release-notes
+- OpenAI ChatGPT release notes: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+
+### Benchmark Owners
+- SWE-bench: https://www.swebench.com
+- SWE-bench Verified: https://www.swebench.com/verified.html
+- ARC Prize: https://arcprize.org
+
+**Changes**: All placeholder X/Twitter URLs and unverified Medium articles have been removed. Confidence assessments updated to reflect T1 source coverage. Cross-platform comparison now anchored in official vendor documentation rather than community discussion.

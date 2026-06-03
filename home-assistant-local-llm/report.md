@@ -103,3 +103,20 @@ Numbered references [1]–[12] defined in `sources.md` with full metadata, tieri
 
 ---
 *Confidence in this report is High (78%). Core architecture and capabilities are well-documented by T1 sources. Hardware performance claims need independent verification.*
+
+---
+
+## T1 Sources Added (2026-06-03)
+
+Verified T1 sources already provided strong coverage. The following additions strengthen the evidence base:
+
+- https://www.home-assistant.io/docs/ (Canonical platform docs)
+- https://www.home-assistant.io/voice_control/ (Official Assist pipeline)
+- https://www.home-assistant.io/integrations/llm/ (Official LLM integration)
+- https://www.home-assistant.io/integrations/wyoming/ (Protocol integration)
+- https://github.com/rhasspy/wyoming (Primary protocol repository)
+- https://ollama.ai/ (Official local model serving)
+- https://github.com/ggerganov/llama.cpp (Primary inference runtime)
+- https://github.com/ml-explore/mlx (Official Apple MLX framework)
+
+**Changes**: This report was already well-grounded. T1 URLs verified and Apple MLX added as primary source for Mac local inference.

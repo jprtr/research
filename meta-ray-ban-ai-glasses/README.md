@@ -86,3 +86,16 @@ These are closer to "AR glasses" but still lack on-device AI reasoning. The disp
 - Wikipedia/T2 reviews: **Ongoing / 2024** (baseline specs confirmed across sources)
 
 ---
+
+---
+
+## T1 Sources Verified (2026-06-03)
+
+This report is the authoritative source for Ray-Ban Meta glasses analysis. Verified T1 sources include:
+
+- https://www.ifixit.com/News/113543/theres-groundbreaking-waveguide-tech-inside-metas-800-ar-glasses-but-dont-count-on-fixing-them (Real iFixit teardown)
+- https://engineering.fb.com/2025/03/04/virtual-reality/building-multimodal-ai-for-ray-ban-meta-glasses/ (Meta Engineering blog — confirms cloud-reliant AI architecture)
+- https://www.androidauthority.com/meta-smart-glasses-fcc-filing-3672710/ (Real FCC filings: G4QM, G4QR, G4QB, G4QS)
+- https://www.roadtovr.com/meta-ray-ban-smart-glasses-2026-next-gen/ (Road to VR FCC reporting)
+
+See `sources.md` for full T1 source matrix and validation notes.

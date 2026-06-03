@@ -248,3 +248,17 @@ The local AI hardware market in 2026 is a **layered oligopoly**: NVIDIA dominate
 
 
 ---
+
+---
+
+## T1 Sources Verified (2026-06-03)
+
+Official vendor spec pages and primary repositories verified:
+
+- https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/ (NVIDIA Jetson Orin)
+- https://github.com/ml-explore/mlx (Apple MLX)
+- https://github.com/ggerganov/llama.cpp (Primary inference runtime)
+- https://ollama.ai/ (Model serving stack)
+- https://www.qualcomm.com/artificial-intelligence (Qualcomm AI platform)
+
+See `sources.md` for full T1/T2/T3 matrix and validation notes.

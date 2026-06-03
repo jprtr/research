@@ -55,3 +55,18 @@ This is the same playbook as the Mac Mini M4 Pro phenomenon — prove consumer d
 
 - **2026-06-02**: Initial pattern identified — NemoClaw + RTX Spark as enterprise agent node
 - **Status**: Active tracking. Awaiting enterprise pricing, pilot announcements, fleet management signals.
+
+---
+
+## T1 Sources Verified (2026-06-03)
+
+All NVIDIA sources verified against official documentation:
+
+- https://www.nvidia.com/en-us/ai/nemoclaw/ (Official product page)
+- https://build.nvidia.com/spark/nemoclaw (Official setup guide for DGX Spark)
+- https://docs.nvidia.com/nemoclaw/get-started/quickstart (Primary technical docs)
+- http://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw (Official announcement)
+- https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw/ (RTX AI Garage ecosystem context)
+- https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/ (Blueprint expansion)
+
+See `sources.md` for full verification notes.
