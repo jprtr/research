@@ -1,33 +1,26 @@
-# Research Archive
+# AI Research Notes
 
-A public repository of deep-dive research reports on AI, agentic systems, hardware, and emerging technology. All reports are structured as publishable research papers with methodology, evidence grading, and actionable insights.
+A collection of structured research on artificial intelligence hardware, models, tools, and market dynamics. Each folder contains a self-contained research note with sourced claims, confidence ratings, and practical implications.
 
-## Reports
+## Topics
 
-### [Frontier LLM Field Notes (May 2026)](frontier-llm-field-notes/report.md)
-- **Focus**: May 2026 release cycle analysis (Kimi K2.6, Claude 4.8, Grok Build, o3-Pro).
-- **Key Themes**: Agentic explosion, price/performance compression, Chinese lab progress, evaluation shift from benchmarks to workflow integration.
-- **Confidence**: 75% (community reports + public discussion).
+| Folder | Topic | Date |
+|--------|-------|------|
+| [ai-game-creation](ai-game-creation/) | AI Game Creation: Tools, Market, and Gaps | 2026-05-31 |
+| [frontier-llm-field-notes](frontier-llm-field-notes/) | Frontier LLM Field Notes (May 2026) | 2026-05-31 |
+| [home-assistant-local-llm](home-assistant-local-llm/) | Home Assistant + Local LLM Integration Stack | 2026-05-31 |
+| [local-ai-hardware-landscape](local-ai-hardware-landscape/) | Local AI Hardware & Compute Landscape | 2026-06-01 |
+| [meta-ray-ban-ai-glasses](meta-ray-ban-ai-glasses/) | Meta Ray-Ban AI Glasses Teardown + On-Device AI Reality Check | 2026-05-31 |
+| [nemoclaw-rtx-spark](nemoclaw-rtx-spark/) | NemoClaw + RTX Spark Enterprise Stack | 2026-06-02 |
+| [path-to-agi](path-to-agi/) | Path to AGI: Timeline, Benchmarks, and Trajectory | 2026-05-31 |
 
-### [AI Game Creation (2026)](ai-game-creation/report.md)
-- **Focus**: How solo creators use AI agent swarms (Claude, Kimi, Grok) to build games from high-level prompts.
-- **Key Themes**: Virtual studios (48–49 agents), asset generation, hybrid workflows, hardware requirements.
-- **Confidence**: 75% (framework releases + community reports).
+## Methodology
 
-### [Path to AGI (2026–2031)](path-to-agi/report.md)
-- **Focus**: Dominant 2026 paradigms (test-time compute, multi-agent orchestration, recursive self-improvement).
-- **Key Themes**: Agentic era, scaling laws, bull/base/bear timelines, jagged intelligence.
-- **Confidence**: 70% (lab leader statements + public discussion).
-
-### [Meta Ray-Ban AI Glasses Teardown (2026)](ray-ban-ai-glasses/report.md)
-- **Focus**: Hardware/software analysis of Meta's 2026 smart glasses (always-on multimodal, on-device LLM, privacy trade-offs).
-- **Key Themes**: Consumer AR/AI wearables, battery life, social acceptance, competitive context.
-- **Confidence**: 70% (public teardowns + Meta announcements).
-
-### [Home Assistant + Local LLM (2026)](home-assistant-local-llm/report.md)
-- **Focus**: Privacy-preserving smart-home stack (Wyoming Protocol, local STT/TTS, Ollama/vLLM integration).
-- **Key Themes**: Offline reliability, customization, hardware requirements, agentic depth.
-- **Confidence**: 80% (mature integration path + community adoption).
+- Sources are tiered (T1 = primary/vendor, T2 = analysis/benchmark, T3 = community/aggregator)
+- Confidence ratings are explicit and caveated
+- Claims without sourcing are flagged as low-confidence or removed
+- No hallucinated benchmarks, pricing, or model specs
 
 ## License
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Free to use with attribution.
+
+Research content is provided as-is for informational purposes.
